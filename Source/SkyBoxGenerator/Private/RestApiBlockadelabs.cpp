@@ -1,4 +1,6 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2023 Adem KILIC
+
+// Copyright Epic Games, Inc. All Rights Reserved.
 
 
 #include "RestApiBlockadelabs.h"
@@ -102,7 +104,6 @@ void URestApiBlockadelabs::GetImagineHistory(FString ApiKey, const FOnGetImagine
                             RequestData.Id = JsonObj->GetIntegerField("id");
                             RequestData.Title = JsonObj->GetStringField("title");
                             RequestData.Prompt = JsonObj->GetStringField("prompt");
-                           // RequestData.Generator = JsonObj->GetStringField("generator");
                             RequestData.Status = JsonObj->GetStringField("status");
                             RequestData.file_url = JsonObj->GetStringField("file_url");
                             RequestData.thumb_url = JsonObj->GetStringField("thumb_url");
