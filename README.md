@@ -11,7 +11,7 @@ SkyBoxGenerator is a plugin developed for Unreal Engine 4.27 that allows you to 
 ## Usage
 
 ### Generate Skybox
-
+![Generate Skybox](generateskybox.PNG)
 This function is used to generate a skybox.
 
 #### Inputs
@@ -31,7 +31,7 @@ This function is used to generate a skybox.
 - OnErrorCallback (Delegate): Event to be called when an error occurs during the skybox generation process.
 
 ### Get Imagine History
-
+![Get Imagine History](getimaginehistoryNode.PNG)
 This function is used to retrieve the user's skybox generation history.
 
 #### Inputs
