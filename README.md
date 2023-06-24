@@ -1,6 +1,6 @@
 # SkyBoxGenerator Plugin
 
-SkyBoxGenerator is a plugin developed for Unreal Engine 4.27 that allows you to generate skyboxes using the blokadelabs.com web service.
+SkyBoxGenerator is a plugin developed for Unreal Engine 4.27 that allows you to generate skyboxes using the blockadelabs.com web service.
 
 ## Installation
 
